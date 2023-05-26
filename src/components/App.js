@@ -30,7 +30,7 @@ const App = () => {
       password: password.trim(),
     };
 
-    const validationErrors = validateFields(fields);
+    const validationErrors = signUpFormValidation(fields);
 
     if (validationErrors) {
       setErrors(validationErrors);
