@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/App.css';
-import { validateFields } from '../utils/validation';
+import { signUpFormValidation } from '../utils/validation';
 
 const App = () => {
   const [name, setName] = useState('');
